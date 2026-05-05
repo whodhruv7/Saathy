@@ -89,7 +89,7 @@ export function SettingsPage({ isOpen, onClose }: SettingsPageProps) {
             <label className="text-sm font-medium">OpenRouter API Key</label>
             <input
               type="password"
-              placeholder="sk-or-..."
+              placeholder="Enter your OpenRouter API key"
               value={keys.openrouter}
               onChange={(e) => setKeys({ ...keys, openrouter: e.target.value })}
               className="w-full px-3 py-2 bg-secondary border border-border rounded-lg text-sm font-mono focus:outline-none focus:ring-2 focus:ring-[hsl(var(--brand-forest))]"
