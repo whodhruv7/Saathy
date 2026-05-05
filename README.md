@@ -10,7 +10,6 @@ Saathy turns a delegate prompt into a structured, source-tagged debate dossier w
 - ⚡ **Normal mode** — Instant chat and debate help (Groq)
 - 🧠 **Research mode** — 6 specialized sub-modes (DeepSeek, Qwen, Mistral)
 - 🔬 **Pipeline mode** — Multi-stage deep research (all models)
-- ⚔ **Sparring mode** — Practice debate against AI opponents
 - 📝 **Notes** — Save research and arguments
 
 ## Local Development
@@ -40,8 +39,8 @@ Required:
 VITE_SUPABASE_URL=https://your-project.supabase.co
 VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
 VITE_OPENROUTER_KEY=your_openrouter_api_key
-VITE_GROQ_KEY=gsk_...
-VITE_GEMINI_KEY=AIza...
+VITE_GROQ_KEY=GROQ_KEY
+VITE_GEMINI_KEY=GEMINI_KEY
 ```
 
 Optional:
